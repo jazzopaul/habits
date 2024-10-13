@@ -1,0 +1,4 @@
+github.com/go-chi/chi/v5 v5.1.0 h1:acVI1TYaD+hhedDJ3r54HyA6sExp3HfXq7QWEEY/xMw=
+github.com/go-chi/chi/v5 v5.1.0/go.mod h1:DslCQbL2OYiznFReuXYUmQ2hGd1aDpCnlMNITLSKoi8=
+github.com/pseidemann/finish v1.2.0 h1:XrEc9FCnBPulyM9NvAptAtcOCZZYHwV0MRCcnCfQlnw=
+github.com/pseidemann/finish v1.2.0/go.mod h1:Wl17vXLhlT9a/K7jryhExgJPfbs4+dUpRaauEWt7oQ4=
