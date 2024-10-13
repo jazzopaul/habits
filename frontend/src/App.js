@@ -25,19 +25,28 @@ function App() {
 
   return (
     <div>
-      <h1>Submit Your Details</h1>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label>Name:</label>
-          <input
-            type="text"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
-        </div>
-        <button type="submit">Submit</button>
-      </form>
+      <div className="min-h-screen flex items-center justify-center bg-blue-100">
+        <h1 className="text-3xl font-bold text-blue-600">
+          Hello, Tailwind CSS!
+        </h1>
+      </div>
+
+      <div>
+        <h1>Submit Your Details</h1>
+        <form onSubmit={handleSubmit}>
+          <div>
+            <label>Name:</label>
+            <input
+              type="text"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+            />
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
     </div>
+    
   );
 }
 
